@@ -1,0 +1,44 @@
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  padding: 4px 12px;
+  width: 100%;
+  outline: 2px solid transparent;
+  transition: outline 0.2s ease-in-out;
+  flex-grow: 1;
+  margin-bottom: 30px;
+  background: #f7f6f6;
+}
+
+.input-wrapper:focus-within {
+  outline: 2px solid #007acc;
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  color: #666;
+}
+
+.styled-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 8px;
+  color: #000;
+  background: transparent;
+}
+
+.styled-input::placeholder {
+  color: #ccc;
+}
+
+.input-side-text {
+  padding: 8px;
+  color: #aaa;
+  font-size: 14px;
+}

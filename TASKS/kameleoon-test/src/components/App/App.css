@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.main-app {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  padding: 48px;
+  background: #fafafa;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
